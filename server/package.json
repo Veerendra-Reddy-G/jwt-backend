@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server",
-    "client": "cd ../../jwt-front/client;npm run dev",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon server"
   },
   "author": "",
   "license": "ISC",
