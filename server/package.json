@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "client": "cd ../client; npm run dev",
+    "client": "cd ../../jwt-front/client;npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
